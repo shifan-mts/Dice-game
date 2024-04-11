@@ -17,9 +17,9 @@ if (randomNumber2 >6){
     }
 
 
-document.querySelector("img").setAttribute('src',"images/dice"+randomNumber1+".png");
+document.querySelector("img").setAttribute('src',"image/dice"+randomNumber1+".png");
 
-document.getElementsByClassName("img2")[0].setAttribute('src',"images/dice"+randomNumber2+".png"); 
+document.getElementsByClassName("img2")[0].setAttribute('src',"image/dice"+randomNumber2+".png"); 
 
 if(randomNumber1==randomNumber2){
     document.querySelector('h1').innerHTML="Draw!"
